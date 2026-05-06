@@ -3,7 +3,7 @@
 # Azure Network Traffic Analysis & Security Lab
 
 <p align="center">
-  <img src="assets/Azure-Network-Security-Lab-Diagram.drawio.png" width="100%" title="Azure Network Architecture">
+  <img src="assets/Azure-Network-Security-Lab-Diagram.drawio (1).png" width="100%" title="Azure Network Architecture">
 </p>
 
 ## Introduction
