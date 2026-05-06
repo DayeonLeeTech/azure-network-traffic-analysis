@@ -35,6 +35,7 @@ The goal of this phase was to create a secure, isolated sandbox in Azure. This e
 </p>
 
 ---
+
 ## Part 2: Connectivity & Initial Traffic Observation
 Once the virtual machines were running, the next step was to verify that they could communicate within the private network. This phase involves testing the connection and observing the "handshake" between the two systems.
 
@@ -52,7 +53,9 @@ Once the virtual machines were running, the next step was to verify that they co
   <br>
   <i>Figure 2: Using Wireshark to capture successful ICMP traffic, confirming a solid connection between the two nodes.</i>
 </p>
+
 ---
+
 ## Part 3: Security Policy & Firewall Configuration
 With a stable connection established, the focus shifted to network security. This phase demonstrates how to control traffic flow using Azure Network Security Groups (NSGs) to enforce specific access policies.
 
