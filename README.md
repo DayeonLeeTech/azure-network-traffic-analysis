@@ -96,12 +96,19 @@ The final phase of the lab involved observing various common network protocols i
 </p>
 
 ---
+## Project Outcome & Key Takeaways
+The project successfully established a functional corporate network within a virtualized environment. By the end of the lab, the client workstation was fully integrated with the domain controller, receiving automated network configurations and maintaining stable connectivity.
+
+### Core Technical Competencies
+* **System Administration:** Hands-on experience managing a centralized Windows Server environment, including Active Directory Domain Services (AD DS) and user database management.
+* **Network Infrastructure:** Configuration of essential services including DHCP for automated IP addressing and NAT for internal-to-external communication.
+* **Workflow Automation:** Utilization of PowerShell scripting to provision 1,000+ user accounts instantly, demonstrating the ability to handle high-volume administrative tasks with precision.
+* **Technical Troubleshooting:** Systematic diagnosis of connectivity and DNS resolution issues to ensure seamless communication between the server and client nodes.
+
+---
 
 ## Conclusion & Cleanup
-* **Resource Management:** To maintain professional cloud hygiene and manage costs, the dedicated Resource Group was deleted. This action safely decommissioned both virtual machines and all associated networking assets.
-* **Key Takeaways:** This project successfully demonstrated the full lifecycle of a cloud network lab—from infrastructure setup and connectivity testing to the implementation of security policies and deep packet analysis.
-
-
+To maintain system hygiene and resource efficiency, the virtual environment was decommissioned upon completion. This project served as a comprehensive exercise in building, securing, and automating a standard enterprise network from the ground up.
 
 
 
