@@ -17,22 +17,23 @@ This lab demonstrates the deployment of cloud-based virtual machines (VMs) in Az
 
 ---
 
-## Part 1: Environment Setup & Provisioning
-The objective of this phase was to establish a unified cloud environment where multiple virtual machines could communicate securely within the same network segment.
+## Part 1: Environment Setup & Infrastructure Provisioning
+The objective of this phase was to engineer a unified cloud environment where multiple virtual machines could communicate securely within a shared network segment.
 
-### 1. Resource Group Creation
-I created a dedicated **Resource Group** to organize all laboratory assets, ensuring easy management and cost-effective cleanup.
+### 1. Resource Group & Virtual Network Deployment
+* **Resource Management:** Created a dedicated **Resource Group** to house all laboratory assets, ensuring streamlined management and an easy cleanup process to manage Azure consumption costs.
+* **Network Architecture:** Deployed a **Virtual Network (VNet)** and a corresponding **Subnet**. This private network serves as the backbone for all internal communication between the Windows workstation and the Linux target.
 
-### 2. Virtual Network (VNet) Configuration
-* Deployed a **Virtual Network (VNet)** and a corresponding **Subnet**.
-* This network serves as the backbone for internal communication between the Windows and Linux instances.
+### 2. Virtual Machine Provisioning
+* **Windows 10 VM (Analyst Workstation):** Provisioned as the primary interface for the lab. This VM was configured to host Wireshark for deep packet inspection and network analysis.
+* **Ubuntu Linux VM (Target Node):** Provisioned as the network target. To ensure connectivity, this VM was assigned to the **same VNet and Subnet** as the Windows instance.
+* **Network Interface (NIC) Configuration:** Assigned private IP addresses to both instances within the virtual subnet, allowing for direct communication without exposing all services to the public internet.
 
-### 3. Virtual Machine Deployment
-* **Windows 10 VM:** Provisioned as the primary "Analyst Workstation" where Wireshark was installed.
-* **Ubuntu Linux VM:** Provisioned as the "Target Node" to facilitate traffic observation and firewall testing.
-* **Network Alignment:** Both VMs were assigned to the same VNet and Subnet to ensure direct internal connectivity (Private IP communication).
-
-
+<p align="center">
+  <img src="assets/vmCreation.png" width="800" alt="Azure VM Creation Overview" />
+  <br>
+  <i>Figure 1: Successful provisioning of Windows and Linux nodes within the unified Azure Resource Group.</i>
+</p>
 
 ---
 
