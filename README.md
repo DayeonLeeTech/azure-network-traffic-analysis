@@ -114,5 +114,8 @@ The project successfully established a secure, multi-node cloud environment with
 ## Conclusion & Cleanup
 To ensure responsible cloud resource management and cost efficiency, the Resource Group was fully decommissioned at the end of the lab. This project demonstrated the ability to bridge the gap between high-level cloud architecture and granular network security analysis.
 
+---
+### 🛠️ Technical Assets
+* **Architecture Source:** [Azure-Network-Diagram.drawio](./assets/Azure-Network-Diagram.drawio) 
 
 
