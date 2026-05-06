@@ -97,18 +97,18 @@ The final phase of the lab involved observing various common network protocols i
 
 ---
 ## Project Outcome & Key Takeaways
-The project successfully established a functional corporate network within a virtualized environment. By the end of the lab, the client workstation was fully integrated with the domain controller, receiving automated network configurations and maintaining stable connectivity.
+The project successfully established a secure, multi-node cloud environment within Microsoft Azure. By the end of the lab, a functional network was created where traffic was not only monitored in real-time but also actively controlled through cloud-native security policies.
 
 ### Core Technical Competencies
-* **System Administration:** Hands-on experience managing a centralized Windows Server environment, including Active Directory Domain Services (AD DS) and user database management.
-* **Network Infrastructure:** Configuration of essential services including DHCP for automated IP addressing and NAT for internal-to-external communication.
-* **Workflow Automation:** Utilization of PowerShell scripting to provision 1,000+ user accounts instantly, demonstrating the ability to handle high-volume administrative tasks with precision.
-* **Technical Troubleshooting:** Systematic diagnosis of connectivity and DNS resolution issues to ensure seamless communication between the server and client nodes.
+* **Cloud Infrastructure Management:** Practical experience provisioning and managing virtualized resources, including Virtual Networks (VNets), subnets, and Network Interfaces (NICs) within the Azure ecosystem.
+* **Network Security & Governance:** Expertise in configuring Network Security Groups (NSGs) to implement "Least Privilege" access, effectively reducing the attack surface by blocking non-essential protocols like ICMP.
+* **Protocol Analysis & Troubleshooting:** Utilization of Wireshark for deep packet inspection (DPI) to verify the behavior of various protocols (SSH, DNS, DHCP, RDP) and confirm successful encryption for remote management.
+* **Security Monitoring:** Development of a "SOC Analyst" mindset by observing live traffic patterns and identifying the immediate impact of firewall rule changes on network connectivity.
 
 ---
 
 ## Conclusion & Cleanup
-To maintain system hygiene and resource efficiency, the virtual environment was decommissioned upon completion. This project served as a comprehensive exercise in building, securing, and automating a standard enterprise network from the ground up.
+To ensure responsible cloud resource management and cost efficiency, the Resource Group was fully decommissioned at the end of the lab. This project demonstrated the ability to bridge the gap between high-level cloud architecture and granular network security analysis.
 
 
 
