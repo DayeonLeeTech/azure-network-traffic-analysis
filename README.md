@@ -74,4 +74,34 @@ With a stable connection established, the focus shifted to network security. Thi
   <br>
   <i>Figure 3: Configuring a Deny rule in the Azure Portal to silence the target VM and block incoming ICMP traffic.</i>
 </p>
+
 ---
+
+## Part 4: Protocol Analysis & Network Traffic Observation
+The final phase of the lab involved observing various common network protocols in action. By filtering traffic in Wireshark, the behavior of DHCP, DNS, and RDP was analyzed to understand how they support network operations.
+
+### 1. DHCP, DNS, and RDP Analysis
+* **DHCP (Dynamic Host Configuration Protocol):** By filtering for `bootp` in Wireshark, the process of the VM requesting and receiving an IP address was observed. This highlighted how the Azure infrastructure automatically manages network assignments for new instances.
+* **DNS (Domain Name System):** Traffic was monitored while navigating to external sites like Google.com from the Windows VM. The capture showed the workstation querying Azure's DNS servers to translate domain names into IP addresses.
+* **RDP (Remote Desktop Protocol):** A steady stream of TCP traffic on port 3389 was observed. Because the Windows VM was being accessed via Remote Desktop, this provided a live look at how GUI data is continuously transmitted across the network.
+
+### 2. Encrypted vs. Unencrypted Traffic (SSH)
+* **SSH Verification:** An SSH session was established to the Ubuntu VM. While previous ICMP (Ping) tests were blocked by security rules, the functional SSH connection confirmed that specific management ports remained open.
+* **Security Insight:** Comparing SSH traffic to other unencrypted protocols demonstrated the importance of encryption. The SSH packet payloads remained unreadable, proving that sensitive administrative commands were protected from interception.
+
+<p align="center">
+  <img src="assets/ssh.png" width="800" alt="Multi-Protocol Analysis" />
+  <br>
+  <i>Figure 4: Using Wireshark filters to isolate and analyze different network protocols (DHCP, DNS, and SSH).</i>
+</p>
+
+---
+
+## Conclusion & Cleanup
+* **Resource Management:** To maintain professional cloud hygiene and manage costs, the dedicated Resource Group was deleted. This action safely decommissioned both virtual machines and all associated networking assets.
+* **Key Takeaways:** This project successfully demonstrated the full lifecycle of a cloud network lab—from infrastructure setup and connectivity testing to the implementation of security policies and deep packet analysis.
+
+
+
+
+
