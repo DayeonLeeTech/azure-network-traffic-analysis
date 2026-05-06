@@ -116,6 +116,6 @@ To ensure responsible cloud resource management and cost efficiency, the Resourc
 
 ---
 ### 🛠️ Technical Assets
-* **Architecture Source:** [Azure-Network-Diagram.drawio](./assets/Azure-Network-Diagram.drawio) 
+* **Architecture Source:** [Azure-Network-Diagram.drawio](./assets/Azure-Network-Security-Lab-Diagram.drawio) 
 
 
