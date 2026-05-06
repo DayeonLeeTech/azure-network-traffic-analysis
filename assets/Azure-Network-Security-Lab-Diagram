@@ -1,0 +1,60 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="1l-bbxzxIt4AqopSCKUX">
+    <mxGraphModel dx="963" dy="799" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="JBtJBWcg9Ql2t4QYV4NG-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=top;autosizeText=0;fontSize=16;fillColor=light-dark(#FFFFFF,#99CCFF);opacity=50;fontColor=#000000;" value="&lt;font face=&quot;Segoe UI&quot; style=&quot;&quot;&gt;&lt;b style=&quot;&quot;&gt;MICROSOFT AZURE&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="580" width="750" x="40" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="JBtJBWcg9Ql2t4QYV4NG-5" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/other/Azure_A.svg;" value="" vertex="1">
+          <mxGeometry height="43.77" width="46.42" x="391.79" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="JBtJBWcg9Ql2t4QYV4NG-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;align=center;labelPosition=center;verticalLabelPosition=middle;direction=south;strokeColor=#E6E6E6;fillColor=#E6E6E6;opacity=50;" value="&lt;font style=&quot;font-size: 14px;&quot; face=&quot;Segoe UI&quot;&gt;&lt;b&gt;Resource Group: Lab-RG&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="440" width="690" x="70" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="JBtJBWcg9Ql2t4QYV4NG-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#666666;dashed=1;opacity=50;" value="&lt;font face=&quot;Segoe UI&quot;&gt;VNet: 192.168.0.0/16&lt;/font&gt;" vertex="1">
+          <mxGeometry height="350" width="620" x="110" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="JBtJBWcg9Ql2t4QYV4NG-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#000000;opacity=80;verticalAlign=top;fontColor=#B3B3B3;" value="&lt;font face=&quot;Segoe UI&quot;&gt;Subnet: 192.168.1.0/24&lt;/font&gt;" vertex="1">
+          <mxGeometry height="270" width="550" x="150" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="JBtJBWcg9Ql2t4QYV4NG-24" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="145" width="489.58000000000004" x="180" y="405" as="geometry" />
+        </mxCell>
+        <mxCell id="JBtJBWcg9Ql2t4QYV4NG-10" parent="JBtJBWcg9Ql2t4QYV4NG-24" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/VirtualMachineWindows.svg;" value="" vertex="1">
+          <mxGeometry height="110" width="119.58" y="35" as="geometry" />
+        </mxCell>
+        <mxCell id="JBtJBWcg9Ql2t4QYV4NG-12" parent="JBtJBWcg9Ql2t4QYV4NG-24" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/VM_Linux.svg;" value="" vertex="1">
+          <mxGeometry height="110" width="119.58" x="370" y="35.00000000000006" as="geometry" />
+        </mxCell>
+        <mxCell id="JBtJBWcg9Ql2t4QYV4NG-13" parent="JBtJBWcg9Ql2t4QYV4NG-24" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=10;fontColor=#B8B8B8;" value="&lt;font face=&quot;Segoe UI&quot;&gt;Workstation (10.0.0.4)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="29.789999999999992" as="geometry" />
+        </mxCell>
+        <mxCell id="JBtJBWcg9Ql2t4QYV4NG-14" parent="JBtJBWcg9Ql2t4QYV4NG-24" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=10;fontColor=#B8B8B8;" value="&lt;font face=&quot;Segoe UI&quot;&gt;Ubuntu-Target (10.0.0.5)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="80.21" x="389.67999999999995" as="geometry" />
+        </mxCell>
+        <mxCell id="JBtJBWcg9Ql2t4QYV4NG-15" parent="JBtJBWcg9Ql2t4QYV4NG-24" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Network_Security_Groups_Classic.svg;" value="" vertex="1">
+          <mxGeometry height="50" width="37" x="110" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="JBtJBWcg9Ql2t4QYV4NG-22" edge="1" parent="JBtJBWcg9Ql2t4QYV4NG-24" source="JBtJBWcg9Ql2t4QYV4NG-15" style="endArrow=classic;startArrow=classic;html=1;rounded=0;labelBackgroundColor=#CCCCCC;strokeColor=#CCCCCC;" target="JBtJBWcg9Ql2t4QYV4NG-16" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="250" y="170" as="sourcePoint" />
+            <mxPoint x="300" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JBtJBWcg9Ql2t4QYV4NG-23" connectable="0" parent="JBtJBWcg9Ql2t4QYV4NG-22" style="edgeLabel;html=1;align=center;verticalAlign=top;resizable=0;points=[];fontFamily=Segoe UI;labelBackgroundColor=#B3B3B3;" value="&lt;font&gt;Protocol Analysis &amp;amp;Traffic Observation&lt;/font&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.002" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JBtJBWcg9Ql2t4QYV4NG-16" parent="JBtJBWcg9Ql2t4QYV4NG-24" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Network_Security_Groups_Classic.svg;" value="" vertex="1">
+          <mxGeometry height="50" width="37" x="342" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="JBtJBWcg9Ql2t4QYV4NG-25" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;opacity=60;" value="&lt;blockquote data-path-to-node=&quot;1&quot;&gt;&lt;p data-path-to-node=&quot;1,0&quot;&gt;&lt;b data-path-to-node=&quot;1,0&quot; data-index-in-node=&quot;0&quot;&gt;&lt;font style=&quot;font-size: 10px; color: rgb(44, 62, 80);&quot; face=&quot;Segoe UI&quot;&gt;Dayeon Lee | May 2026 | Azure Cyber Lab&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;h3 data-path-to-node=&quot;2&quot;&gt;&lt;/h3&gt;" vertex="1">
+          <mxGeometry height="30" width="370" x="470" y="690" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
