@@ -2,6 +2,10 @@
 ![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white)
 # Azure Network Traffic Analysis & Security Lab
 
+<p align="center">
+  <img src="assets/Azure-Network-Security-Lab-Diagram.drawio.png" width="100%" title="Azure Network Architecture">
+</p>
+
 ## Introduction
 This lab demonstrates the deployment of cloud-based virtual machines (VMs) in Azure and the analysis of network traffic using Wireshark. By configuring a virtual network and implementing Network Security Group (NSG) rules, I simulated real-world scenarios to observe and secure various protocols, including ICMP, SSH, DNS, DHCP, and RDP.
 
