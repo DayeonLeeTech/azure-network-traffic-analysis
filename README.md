@@ -16,7 +16,7 @@ This lab demonstrates the deployment of cloud-based virtual machines (VMs) in Az
 
 ## Technical Skills & Tools
 * **Cloud Platform:** Microsoft Azure
-* **Operating Systems:** Windows 10, Linux (Ubuntu 20.04)
+* **Operating Systems:** Windows 11, Linux (Ubuntu 20.04)
 * **Network Security:** Network Security Groups (Firewalls), Inbound/Outbound Security Rules
 * **Traffic Analysis:** Wireshark (Packet Capture & Protocol Inspection)
 * **Connectivity:** Remote Desktop Protocol (RDP), SSH, ICMP (Ping)
