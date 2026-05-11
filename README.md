@@ -103,7 +103,7 @@ The final phase of the lab involved observing various common network protocols i
 </p>
 
 ---
-## Project Outcome & Key Takeaways
+## Project Outcome & Core Technical Competencies
 The project successfully established a secure, multi-node cloud environment within Microsoft Azure. By the end of the lab, a functional network was created where traffic was not only monitored in real-time but also actively controlled through cloud-native security policies.
 
 ### Core Technical Competencies
