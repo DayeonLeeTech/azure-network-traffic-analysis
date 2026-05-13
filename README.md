@@ -103,14 +103,21 @@ The final phase of the lab involved observing various common network protocols i
 </p>
 
 ---
-## Project Outcome & Core Technical Competencies
-The project successfully established a secure, multi-node cloud environment within Microsoft Azure. By the end of the lab, a functional network was created where traffic was not only monitored in real-time but also actively controlled through cloud-native security policies.
+
+## Project Outcome & Key Takeaways
+The project successfully established a secure, multi-node cloud environment within Microsoft Azure. By the conclusion of the lab, a functional network was created where traffic was not only monitored in real-time but also actively controlled through cloud-native security policies, bridging the gap between high-level cloud architecture and granular packet analysis.
 
 ### Core Technical Competencies
 * **Cloud Infrastructure Management:** Practical experience provisioning and managing virtualized resources, including Virtual Networks (VNets), subnets, and Network Interfaces (NICs) within the Azure ecosystem.
-* **Network Security & Governance:** Expertise in configuring Network Security Groups (NSGs) to implement "Least Privilege" access, effectively reducing the attack surface by blocking non-essential protocols like ICMP.
-* **Protocol Analysis & Troubleshooting:** Utilization of Wireshark for deep packet inspection (DPI) to verify the behavior of various protocols (SSH, DNS, DHCP, RDP) and confirm successful encryption for remote management.
+* **Network Security & Governance:** Expertise in configuring Network Security Groups (NSGs) to implement "Least Privilege" access, effectively reducing the attack surface by blocking non-essential protocols.
+* **Protocol Analysis & Troubleshooting:** Professional-level utilization of Wireshark for deep packet inspection (DPI) to verify the behavior of various protocols (SSH, DNS, DHCP, RDP).
 * **Security Monitoring:** Development of a "SOC Analyst" mindset by observing live traffic patterns and identifying the immediate impact of firewall rule changes on network connectivity.
+
+### Key Takeaways
+* **Visibility is Security:** Learned that network security is impossible without visibility; using Wireshark to "see" the traffic provided the evidence needed to confirm that security rules were working as intended.
+* **Firewall Logic & Priority:** Gained a practical understanding of how NSG rules are processed by priority, and how a single high-priority "Deny" rule can instantly secure a resource.
+* **Encryption Awareness:** Observed the fundamental difference between encrypted traffic (SSH) and unencrypted management data, reinforcing the importance of secure protocols for administrative tasks.
+* **Cloud Cost Management:** Practiced responsible resource lifecycle management by utilizing Resource Groups for clean deployment and rapid decommissioning to avoid unnecessary costs.
 
 ---
 
