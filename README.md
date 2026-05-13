@@ -10,7 +10,7 @@
 </p>
 
 ## Introduction
-This lab demonstrates the deployment of cloud-based virtual machines (VMs) in Azure and the analysis of network traffic using Wireshark. By configuring a virtual network and implementing Network Security Group (NSG) rules were implemented to simulate real-world scenarios to observe and secure various protocols, including ICMP, SSH, DNS, DHCP, and RDP.
+This lab demonstrates the deployment of cloud-based virtual machines (VMs) in Azure and the analysis of network traffic using Wireshark. By configuring a virtual network and implementing Network Security Group (NSG) rules to simulate real-world scenarios to observe and secure various protocols, including ICMP, SSH, DNS, DHCP, and RDP.
 
 ---
 
