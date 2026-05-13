@@ -1,9 +1,11 @@
+
+# Azure Network Traffic Analysis & Security Lab
+
 ![Azure](https://img.shields.io/badge/azure-%230072C6.svg?style=for-the-badge&logo=microsoftazure&logoColor=white)
 ![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white)
 ![Ubuntu](https://img.shields.io/badge/Ubuntu-E94331?style=for-the-badge&logo=ubuntu&logoColor=white)
 ![Network Security](https://img.shields.io/badge/Network_Security-green?style=for-the-badge&logo=shield&logoColor=white)
 ![Traffic Analysis](https://img.shields.io/badge/Traffic_Analysis-blue?style=for-the-badge&logo=icloud&logoColor=white)
-# Azure Network Traffic Analysis & Security Lab
 
 <p align="center">
   <img src="assets/Azure-Network-Security-Lab-Diagram.drawio (1).png" width="100%" title="Azure Network Architecture">
